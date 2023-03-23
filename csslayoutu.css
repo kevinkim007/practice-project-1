@@ -1,0 +1,29 @@
+header{
+    background-color: #77adda;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: #666;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.content{
+    background-color: #2ca152;
+    color: white;
+    padding: 20px;
+    height: 200px;
+    flex: 3;
+}
+.side{
+    background: color #9482e0;
+    padding: 20px;
+    flex: 1;
+  }  
+main {
+    display: flex;
+}
+
+
+/*# sourceMappingURL=csslayoutu.css.map */

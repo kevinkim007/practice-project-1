@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey form</title>
+        <link rel="sylesheet" href="survey-form.css"/>
+    
+    </head>
+    <body>
+        <H1 id="title">Koshin TTI survey Form</H1>
+        <p id="description">Thank you for taking time to improve the Institution</p>
+        <fieldset>
+            <form id="survey-form">
+                <label id="name-label">Name<br>
+                    <input type="text" placeholder="Enter your name" id="name" required/>
+                </label><br><br>
+                <label id="name-label">Email<br>
+                    <input type="text" placeholder="Enter your Email" id="name" required/>
+                </label><br><br>
+                <label id="name-label">Age( optional)<br>
+                    <input type="text" placeholder="Age" id="name" required/>
+                </label><br>
+                <div>
+                   <p>Which best describes your current role?</p>
+                   <select name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">Student</option>
+                    <option value="2">Trainer</option>
+                    <option value="3">Staff</option>
+                    <option value="4">Other</option>
+                  </select>
+                </div>
+                <div>
+                    <p>Would you Recommend Koshin TTI to a friend?</p>
+                    <label><input type="radio" name="account-type" class="inline" /> Definately</label>
+        <label><input type="radio" name="account-type" class="inline" /> Maybe</label>
+        <label>
+                </div>
+                <div>
+                    <p>What would you like to see improved? (check all that apply)</p>
+                    <label>
+                        <input type="checkbox" name="terms" class="inline" required />Building and infrastructure
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="terms" class="inline" required />library and study materials
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="terms" class="inline" required />Trainers and staff
+                    </label>
+                </div>
+                <div>
+                    <p>Any comments or suggestion?</p>
+                    <textarea placeholder="enter your comment here..."></textarea>
+                </div><br>
+                <button>Submit</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
